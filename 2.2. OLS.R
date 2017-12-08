@@ -1,5 +1,5 @@
 rm(list = ls()); gc(); dev.off()
-setwd(dir = "Udemy/2. Modelling/")
+setwd(dir = "C:/Users/kazim/Documents/Udemy/2. Modelling/")
 sd <- fread(input = "2.2. SalaryData.csv")
 summary(sd)
 linear_model <- lm(formula = Salary ~ YearsExperience, data = sd)
